@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+.cource1{
+    height: 49%;
+    width: 100%;
+    background-image: url(page-title.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2%;
+
+}
+.cource1 #courceimg{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.838);
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+}
+.cource1 #courceimg #box{
+    height: 38%;
+    width: 30%;
+    /* background-color: antiquewhite; */
+  
+   margin-left: 9%;
+  
+}
+.cource1 #courceimg #box h2{
+    font-size: 57px;
+    text-transform: capitalize;
+       font-family: "Plus Jakarta Sans", sans-serif;
+       font-weight: 800;
+       color: white;
+}
+.cource1 #courceimg #box  #a{
+    height: 20%;
+    width: 100%;
+    display: flex;
+  
+    /* background-color: aqua; */
+}
+.cource1 #courceimg #box a{
+    text-decoration: none;
+    font-size: 18px;
+     margin-left: 10px;
+    
+    text-transform: capitalize;
+    color: white;
+   
+}
+.cource1 #courceimg #box .home{
+color:rgb(16, 190, 144) ;
+}
+.cource1 #courceimg #box .home:hover{
+    color: white;
+}
+.cource1 #courceimg #box i{
+    font-size: 20px;
+    color: white;
+  
+}
+#main1{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(254, 248, 248);
+}
+#trade{
+    width: 13%;
+    height: 10%;
+    margin-left: 40%;
+    /* margin-top: 4%; */
+    display: flex;
+    padding: 22px;
+    justify-content: space-around;
+    align-items: center;
+}
+#trade a{
+    text-decoration:  none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: gray;
+    font-size: 20px;
+    background-color:rgb(231, 227, 227);
+    margin-top: 50%;
+
+}
+#trade a:hover{
+    border-bottom: 2px solid rgb(238, 183, 18);
+   
+    color: black;
+    text-align: center;
+}
+#trader{
+    width: 27%;
+    height: 60%;
+    margin-top: 9%;
+    position: absolute;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    border-top: 20px solid white;
+    
+
+}
+.trader1{
+    width: 100%;
+    height: 100%;
+    border-top: 20px solid white;
+  
+margin-top: -30%;
+}
+.trader1 a img{
+    width: 100%;
+    height: 250px;
+    border-left: 20px;
+    border-right: 20px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.trader2{
+    width: 100%;
+    height: 23%;
+    background-color: white;
+    /* margin-top: -23%; */
+    margin-top:-35%;
+  
+
+}
+.trader2 .diff-i{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #ef5c72; */
+    margin-top: 15px;
+   
+}
+.diff-i #box{
+    width: 33%;
+    height: 100%;
+}
+.trader2 P{
+    margin-left: 20%;
+    margin-top: 9%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: gray;
+
+}
+
+.trader2 i{
+    color: rgb(13, 213, 150);
+    margin-top: 3%;
+    position: absolute;
+    margin-left: 1%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+
+}
+.trader2 h3{
+    margin-left: 3%;
+    font-size: 22px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: -1%;
+
+
+}
+.trader2 button{
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    height:8%;
+    background-color: blueviolet;
+    margin-left: 5%;
+    margin-top: -25%;
+    position: absolute;
+}
+#trader  #price{
+    height: 8%;
+    width: 45%;
+    background-color:#ef5c72;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: -186%;
+    margin-left: 70%;
+   gap: 7px;
+   color: white;
+   
+  
+}
+
+@media (max-width:748px) {
+    html,body{
+        height: 100vh;
+        width: 100vw;
+    }
+  
+    .cource1 #courceimg #box h2{
+font-size: 35px;
+margin-left: 10px;
+
+    }
+    .cource1 #courceimg #box #a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+        width: 50%;
+        margin-left: 5%;
+    }
+.cource1 #courceimg #box #a a{
+    font-size: 13px;
+}
+#main1{
+  height: 80%;
+}
+#main1 #trade{
+    height: 10%;
+    width: 20%;
+    /* background-color: rgb(73, 130, 180); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ #trade a{
+    font-size: 17px;
+ gap: 20%;
+ margin-top: 50px;
+}
+#main1 #trade a:hover{
+     border-bottom: 2px solid rgb(238, 183, 18);
+    width: 80px;
+    color: black;
+    text-align: center; 
+}
+#trader{
+    height: 55%;
+    width: 44%;
+    /* background-color: antiquewhite; */
+    /* padding: 30px; */
+}
+#trader .trader1{
+    height:90% ;
+    width: 100%;
+    /* background-color: aqua; */
+    
+}
+#trader .trader1 a img{
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#trader #price{
+    margin-top: -149%;
+   
+}
+
+#trader #price a{
+    font-size: 12px;
+}
+#trader .trader2{
+    height: 27%;
+        width: 100%;
+    margin-top:9%;
+}
+ .trader2 .diff-i{
+    /* background-color: #ef5c72; */
+    margin-top: 5px;
+ }
+  .trader2 .diff-i #box{
+    /* background-color: aqua; */
+    display: flex;
+
+    align-items: center;
+    
+  }
+    .trader2 .diff-i #box p{
+        font-size: 14.5px;
+    }
+    .trader2 h3{
+        margin-top: 2px;
+    }
+    .trader2 button{
+        margin-top: -29%;
+    }
+}
+@media (max-width:450px) {
+    html,body{
+        height: 100vh;
+        width: 100vw;
+
+    }
+    .cource1 #courceimg #box #a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+        width: 22%;
+        margin-left: 33%;
+        margin-top: -12px;
+    }
+     
+    .cource1 #courceimg #box h2{
+        margin-top: 10px;
+    }
+    #main1{
+        height: 80%;
+    
+    }
+    #trader{
+        width: 95%;
+        margin-left: 3%;
+    }
+   #trader #price{
+    margin-top: -107%;
+   
+}
+#trader .trader2{
+    
+    margin-top:-9%;
+}
+  .trader2 button{
+        margin-top:-22%;
+}
+
+}

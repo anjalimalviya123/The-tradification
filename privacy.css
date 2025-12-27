@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --theme-color1: #7433ff;
+    --theme-color1: #191e24;
+    --theme-color2: #04b388;
+    --theme-color3: #7054e6;
+    --theme-color5: #ef5c72;
+    --bg-gray: #6c757d;
+    --bg-theme-color1: var(--theme-color1);
+    --bg-theme-color2:var(--theme-color2);
+    --bg-theme-color3: var(--theme-color3);
+--color-theme-grey:var(--bg-gray);
+    --bg-theme-color5: var(--theme-color5);
+}
+html,body{
+height: 100%;
+width: 100%;
+box-sizing: border-box;
+
+}
+
+#main1{
+    width: 100%;
+    height: 200%;
+    margin-top: 10%;
+}
+#main1 h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 3%;
+
+}
+#main1 p{
+    font-size: 19px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 20px 120px;
+    color: gray;
+
+}
+#main1 p span{
+    font-size: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+#privacy-info{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #ef5c72; */
+}
+.information{
+    width: 100%;
+    height: 10%;
+    /* background-color: aqua; */
+    margin-top: 2%;
+}
+#info4{
+    height: 7%;
+}
+#info6{
+    height: 7%;
+}
+#info7{
+    height: 7%;
+}
+.information h2{
+    margin-left: 8%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+#privacy-info .information p span{
+    color: black;
+    font-size: 17px;
+}
+ #privacy-info .information p{
+    color: gray;
+    font-size: 17px;
+}
+
+
+
+
+
+
+@media (max-width:748px){
+    #header{
+        width: 100%;
+        height: 20%;
+    }
+    #privacy-info{
+        width: 100%;
+        height: 120%;
+    }
+    .information p{
+       text-align: start;
+       margin-left: -8%
+    }
+     
+    
+    
+    
+    
+}
+
+@media (max-width:450px){
+    #main1{
+        width: 100%;
+        height: 290%;
+    }
+    #main1 p{
+        /* margin-left: -19%; */
+        font-size: 18px;
+        padding: 40px;
+        text-align: start;
+    }
+     #main1 p span{
+        font-size: 18px;
+        margin-top: 5%;
+     }
+
+    #main1 h1{
+        /* margin-left: -25%; */
+        font-size: 43px;
+        margin-top: -20%;
+    }
+    .footer{
+        margin-top: 15%;
+    }
+    #privacy-info{
+        height: 85%;
+        /* background-color: #7054e6; */
+        margin-top: -5%;
+    }
+    #privacy-info .information{
+        width: 100%;
+        height: 15%;
+        /* background-color: #ef5c72; */
+    }
+    .information p{
+        padding: 30px;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 0.09%;
+    }
+   
+    #info2 h2{
+        margin-top: 5%;
+    }
+    /* #info2 h2{
+        margin-top: -1%;
+    } */
+    .information h2{
+        margin-top: 5%;
+    }
+}

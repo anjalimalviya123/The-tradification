@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#linear{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.732);
+}
+#main1{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(254, 248, 248);
+}
+#main{
+    width: 100%;
+    height: 50%;
+    background-image: url(page-title.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+    background-size: cover;
+}
+
+
+#price-range{
+    width: 42%;
+    height: 9%;
+    background-color: rgb(247,86,145);
+    margin-top: -69%;
+    border-radius: 15px;
+    margin-left: 60%;
+    text-align: center;
+    position: absolute;
+}
+#price-range a{
+    text-decoration: line-through;
+    font-size: 14px;
+    color: white;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    padding: 50px;
+
+}
+#price-range .realp{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+#linear h2{
+    color: white;
+    font-size: 40px;
+    margin-top: 11%;
+    margin-left: 7%;
+    position: absolute;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+#div{
+    width: 10%;
+    height: 5%;
+    margin-top: 15%;
+    margin-left: 7%;
+    position: absolute;
+    display: flex;align-items: center;
+    justify-content: space-around;
+
+}
+#div a{
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+
+
+}
+  #div .home{
+    color: rgb(24, 212, 168);
+}
+#main1{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(254, 248, 248);
+}
+#trade{
+    width: 13%;
+    height: 10%;
+    margin-left: 40%;
+    margin-top: 4%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+}
+#trade a{
+    text-decoration:  none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: gray;
+    font-size: 20px;
+
+}
+#trade a:hover{
+    border-bottom: 2px solid rgb(238, 183, 18);
+    width: 50px;
+    color: black;
+    text-align: center;
+}
+#trader{
+    width: 27%;
+    height: 50%;
+    margin-top: 9%;
+    position: absolute;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.trader1{
+    width: 100%;
+    height: 60%;
+   
+
+}
+.trader1 a img{
+    width: 100%;
+    height: 220px;
+}
+.trader2{
+    width: 100%;
+    height: 35%;
+    background-color: white;
+    margin-top: -23%;
+}
+.trader2 .diff-i{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+.diff-i #box{
+    width: 33%;
+    height: 100%;
+}
+.trader2 P{
+    margin-left: 20%;
+    margin-top: 9%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: gray;
+
+}
+
+.trader2 i{
+    color: rgb(13, 213, 150);
+    margin-top: 3%;
+    position: absolute;
+    margin-left: 1%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+
+}
+.trader2 h3{
+    margin-left: 3%;
+    font-size: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: -4%;
+
+
+}
+.trader2 button{
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    height:9%;
+    background-color: blueviolet;
+    margin-left: 5%;
+    margin-top: -29%;
+    position: absolute;
+}
+
+
+@media (max-width:748px){
+    #main h2{
+        margin-top: 10%;
+    }
+    #main #div{
+        margin-top: 18%;
+        width: 20%;
+        
+    }
+    
+    #main1{
+        width: 100%;
+        height: 100%;
+    }
+    #trade{
+        width: 20%;
+        height: 6%;
+    }
+    #trader{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .trader1{
+        height: 100%;
+        margin-top: 6%;
+
+    }
+    .trader1 a img{
+        height: 100%;
+        border-radius: 10px;
+
+    }
+     #trader .trader2{
+        height: 40%;
+        position: absolute;
+        margin-top: 90%;
+        border-radius: 10px;
+    }
+    .trader2 button{
+        margin-top: -18%;
+        width: 20%;
+        height: 19%;
+    }
+    .trader2 .diff-i{
+        width: 66%;
+        margin-left: 5%;
+    }
+    .diff-i p{
+        margin-top: 13%;
+    }
+    .trader2 h3{
+        margin-left:7%;
+    }
+
+    #trade a:hover{
+    border-bottom: 2px solid rgb(238, 183, 18);
+    width: 50px;
+    color: black;
+    text-align: center;
+}
+}
+
+
+@media (max-width:450px){
+    #main h2{
+        margin-top: 30%;
+    }
+    #main #div{
+        margin-top: 43%;
+        width: 30%;
+        
+    }
+    #main1 #trade{
+        margin-top: 20%;
+        width: 29%;
+        margin-left: 35%;
+    }
+     #main1 #trader{
+        margin-top: 33%;
+     }
+     #trader .trader1{
+        height: 80%;
+     }
+    
+      #trader .trader2{
+        margin-top: 120%;
+      }
+      .trader2 button{
+        margin-top: -29%;
+        width: 25%;
+      }
+      .trader2 .diff-i{
+        width: 90%;
+        margin-top: 5%;
+      }
+      .diff-i i{
+        margin-top: 4%;
+      }
+      #price-range{
+        margin-top: -46%;
+        height: 11%;
+      }
+
+}
+
+
+
+

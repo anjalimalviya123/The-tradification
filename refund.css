@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --theme-color1: #7433ff;
+    --theme-color1: #191e24;
+    --theme-color2: #04b388;
+    --theme-color3: #7054e6;
+    --theme-color5: #ef5c72;
+    --bg-gray: #6c757d;
+    --bg-theme-color1: var(--theme-color1);
+    --bg-theme-color2:var(--theme-color2);
+    --bg-theme-color3: var(--theme-color3);
+--color-theme-grey:var(--bg-gray);
+    --bg-theme-color5: var(--theme-color5);
+}
+html,body{
+height: 100%;
+width: 100%;
+box-sizing: border-box;
+
+}
+
+#turm-condition{
+    height:160% ;
+    width: 100%;
+    /* background-color: #c1b5ef; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+#turm-condition #turm1{
+height: 100%;
+width: 77%;
+/* background-color:antiquewhite ; */
+
+}
+#turm-condition #turm1 #box1{
+    height: 10%;
+    width: 100%;
+    /* background-color: #7f9dc4; */
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 19px;
+    margin-top: 6%;
+}
+#turm1 #box1 h2{
+    font-size: 46px;
+    font-weight: 800;
+     font-family: "Plus Jakarta Sans", sans-serif;
+}
+#turm1 #box1 p{
+    font-size: 18px;
+     font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: -1px;
+    font-weight: 400;
+   line-height: 25px;
+   color: #7d8185;
+
+}
+#turm1 #details{
+    height: 100%;
+    width: 100%;
+    /* background-color: #b1c2d2; */
+    padding: 20px;
+}
+#details .a1{
+    height:12%;
+    width: 100%;
+    /* background-color: #806cd0; */
+    /* margin-top: 3%; */
+    display: block;
+    align-items: center;
+   
+    text-align: start;
+}
+#details .a1 h6{
+font-size: 24px;
+   font-family: "Plus Jakarta Sans", sans-serif;
+}
+#details .a1 p{
+    font-size: 18px;
+     font-family: "Plus Jakarta Sans", sans-serif;
+     margin: 10px;
+     margin-left: 29px;
+     line-height: 29px;
+     letter-spacing: .51px;
+     color: #7d8185;
+}
+#details #p1{
+height: 9%;
+    width: 111%;
+     /* background-color: #806cd0; */
+margin-top: 12px;
+letter-spacing: .1px;
+color: #7d8185;
+}
+#details #p1 p{
+ padding: 22px;
+ font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  line-height: 30px;
+  margin-left: -1%;
+  /* margin-top: 4%; */
+}
+#details .b1{
+        height: 9%;
+    width: 99%;
+    margin-top: 4%;
+    /* background-color: #ef5c72; */
+}
+#details .b1 h6{
+  font-size: 24px;
+   font-family: "Plus Jakarta Sans", sans-serif;  
+}
+#details .b1 p{
+        font-size: 18px;
+     font-family: "Plus Jakarta Sans", sans-serif;
+     margin: 10px;
+     margin-left: 29px;
+     line-height: 29px;
+     color: #7d8185;
+     margin-left: -3px;
+}
+#details .b1 .pp1{
+    margin-left: -2px;
+}
+#details  #icon1{
+    height:9%;
+    width: 30%;
+    /* background-color: #7054e6; */
+    display: block;
+    align-items: flex-start;
+  
+    /* margin-top: 10px; */
+ 
+
+ 
+}
+#icon1 #i{
+height: 20%;
+width: 100%;
+/* background-color: #165794; */
+margin-top: 9px;
+}
+#icon1 a{
+    text-decoration: none;
+    font-size: 17.5px;
+    color: black;
+
+      font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+@media (max-width:768px) {
+#turm-condition{
+    height: 250%;
+}
+ #turm-condition #turm1{
+    width: 90%;
+ }   
+  #turm-condition #turm1 #box1{
+    height: 5%;
+    width: 100%;
+  }
+
+  #turm1 #box1 h2{
+    font-size: 37px;
+  }
+  #turm1 #box1 p{
+    font-size: 17.7px;
+   }
+  #turm-condition #turm1 #details{
+    height: 90%;
+    margin-top: 4%;
+
+  }
+  #details .a1{
+    margin-top: 4%;
+    
+  }
+    #details .a1 p{
+        font-size: 18px;
+    }
+    #details .b1{
+        margin-top: 5%;
+    }
+
+    #details #icon1{
+        width: 60%;
+    }
+   
+}
+@media (max-width:450px) {
+    #turm-condition{
+    height: 220%;
+}
+ #turm-condition #turm1{
+    width: 90%;
+ }   
+  #turm-condition #turm1 #box1{
+    height: 5%;
+    width: 100%;
+  }
+
+  #turm1 #box1 h2{
+    font-size: 46px;
+  }
+  #turm1 #box1 p{
+    font-size: 18px;
+    margin-top: 3%;
+    padding: 10px;
+    margin-left: 2%;
+   }
+  #turm-condition #turm1 #details{
+    height: 90%;
+    margin-top: 11%;
+
+  }
+   #details #p1 p{
+    font-size: 18px;
+    margin-left: -3%;
+    padding: 10px;
+   }
+  #details .a1{
+    height: 20%;
+    /* background-color: #ef5c72; */
+    margin-top: 1%;
+    
+  }
+    #details .a1 p{
+        font-size: 18px;
+    }
+    #details .b1{
+        margin-top: 11%;
+        height: 10%;
+        /* background-color: #7433ff; */
+    }
+    #details .b1 p{
+         font-size: 18px; 
+
+    }
+    #details #icon1{
+        width:90%;
+}
+}

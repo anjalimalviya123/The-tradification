@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 50%;
+    background-image: url(page-title.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+    background-size: cover;
+}
+#linear{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.732);
+}
+#main1{
+    width: 100%;
+    height: 250%;
+    background-color: rgb(254, 248, 248);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+#linear h2{
+    color: white;
+    font-size: 40px;
+    margin-top: 11%;
+    margin-left: 7%;
+    position: absolute;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+#div{
+    width: 10%;
+    height: 5%;
+    margin-top: 15%;
+    margin-left: 7%;
+    position: absolute;
+    display: flex;align-items: center;
+    justify-content: space-around;
+
+}
+#div a{
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+
+
+}
+  #div .home{
+    color: rgb(24, 212, 168);
+}
+ #box5{
+width: 100%;
+height: 64%;
+}
+
+#trade3{
+    width: 90%;
+    margin-left: 5%;
+    height: 35%;
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-around;
+    align-items: center;
+}
+.trade4{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1%;
+
+}
+.trade4 .icons{
+    width: 70%;
+    height: 25%;
+    border: 1px dotted blue;
+}
+.icons .circle{
+    width: 45px;
+    height: 45px;
+    background-color:#04b388;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons #circle1{
+    background-color: black;
+}
+.icons #circle3{
+    background-color: #7054e6;
+}
+.icons h3{
+    margin-left: 20%;
+    margin-top: -10%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+.icons h3 span{
+    color: gray;
+}
+.icons h3 span:hover{
+    color: rgb(250, 67, 67);
+}
+.circle i{
+    color: white;
+    font-size: 20px;
+  
+    
+}
+
+.trade5{
+    width: 55%;
+    height: 40%;
+    margin-top: -14%;
+    margin-left: -7%;
+}
+.trade5 a img{
+    width: 755px;
+    height: 430px;
+}
+#box6{
+width: 100%;
+height: 30%;
+/* background-color: aquamarine; */
+margin-top: 0%;
+}
+#price{
+    width: 25%;
+    height: 22%;
+    background-color: rgb(232, 227, 227);
+    margin-left: 14%;
+    margin-top: 2%;
+    border-bottom: 3px solid rgb(52, 14, 189);
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-transform: uppercase;
+
+}
+#price h5{
+    font-size: 20px;
+    color: #81868a;
+    margin-top: 3%;
+    position: absolute;
+    margin-left: 7%;
+    
+}
+#price h2{
+    font-size: 30px;
+    color: gray;
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 7%;
+    text-decoration: line-through;
+    
+}
+#price h4{
+    font-size: 1.5rem;
+    color: #04b388;
+    margin-top: 8%;
+    position: absolute;
+    margin-left: 7%;
+    
+}
+#price button{
+    margin-top: 46%;
+    width: 80%;
+    height: 15%;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    background-color: rgb(214, 210, 210);
+    color: rgb(105, 102, 102);
+    font-weight: 600;
+}
+#enrollment{
+    width: 53%;
+    height: 20%;
+    margin-left: 41%;
+    margin-top: -20%;
+}
+#enrollment .enroll{
+    width: 90%;
+    height: 32%;
+    background-color: rgb(235, 226, 226);
+    border: 3px solid rgb(206, 70, 70);
+    margin-left: 5%;
+    border-radius: 10px;
+    font-size: 30px;
+    color: rgb(228, 66, 66);
+    outline: none;
+    margin-top: 4%;
+
+}
+#enrollment h4{
+    margin-top: 3%;
+    margin-left:5%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+color: gray;
+font-weight: 400;
+letter-spacing: 2px;
+
+}
+#enrollment .watch{
+    width: 90%;
+    height: 22%;
+    background-color: black;
+    margin-left: 5%;
+    border-radius: 50px;
+    font-size: 12px;
+    color: white;
+    outline: none;
+    margin-top: 3%;
+    border: none;
+    letter-spacing: 2px;
+
+}
+#enrollment .watch a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+#enrollment .watch:hover{
+    background-color: rgb(7, 198, 134);
+}
+#pro-trade{
+    width: 50%;
+    height: 40%;
+    margin-left: 43%;
+}
+#pro-trade h2{
+    font-size: 34px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 3%;
+    margin-left: 3%;
+
+}
+#pro-trade p{
+    color: #7d8185;
+    font-size: 18px;
+    padding: 30px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    
+
+}
+#box6 h2{
+    font-size: 36px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-left: 13%;
+    font-weight: 700;
+    color: #191e24;
+
+
+}
+#box6 h3{
+    font-size: 36px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-left: 13%;
+margin-top: 1%;
+font-weight: 700;
+    color: #191e24;
+}
+#box6 p{
+    font-size: 18px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #7d8185;
+margin-left: 13%;
+margin-top: 2%;
+
+
+}
+#form{
+    width: 80%;
+    height: 72%;
+    margin-left: 10%;
+}
+.inp{
+    width: 70%;
+    height: 13%;
+    /* margin-top: 2%; */
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2%;
+
+
+}
+.inp input{
+    width: 48%;
+    height: 55%;
+    outline: none;
+    border: none;
+    background-color: rgb(236, 225, 225);
+    border-radius: 10px;
+padding-left: 25px;
+font-size: 14px;
+
+}
+.inp input:hover{
+    border: 2px solid rgb(16, 198, 149);
+}
+
+#form label{
+    margin-top: 7%;
+    position: absolute;
+    font-size: 20px;
+    color: gray;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-left: 3%;
+
+}
+#form .profile{
+    width: 70%;
+    /* margin-left: 5%; */
+    border-radius: 10px;
+    height: 10%;
+    background-color: rgb(236, 225, 225);
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 3%;
+    
+}
+.profile button{
+    width: 10%;
+    height: 38%;
+    margin-left: 3%;
+    margin-top: 2%;
+    border: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    border: none;
+}
+
+.profile .btn1{
+    background: none;
+}
+.msg{
+    margin-top: 22%;
+    margin-left: 4%;
+    width: 88%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 30%;
+    background-color:rgb(236, 225, 225) ;
+    text-align: start;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding-left: 25px;
+}
+.submit{
+    width: 20%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 12px;
+    border: none;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    outline: none;
+    border-radius: 30px;
+
+}
+ #form .submit:hover{
+    background-color: rgb(7, 183, 151);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:748px){
+    #main h2{
+        margin-top: 10%;
+    }
+    #main #div{
+        margin-top: 18%;
+        width: 20%;
+        
+    }
+    
+    #main1{
+        width: 100%;
+        height: 400%;
+    }
+    .content{
+        width: 100%;
+    }
+    .trade5{
+        width: 50%;
+
+    }
+   
+    #trade3 .trade4{
+        width: 70%;
+        margin-top: 260%;
+        height: 50%;
+        position: absolute;
+
+    }
+   
+    .trade5 a img{
+        width: 600px;
+        height: 300px;
+         margin-left: -30%; 
+         margin-top: -50%;
+
+    }
+    #enrollment{
+        width: 80%;
+        height: 10%;
+        margin-top: -50%;
+        margin-left: 10%;
+    }
+    #pro-trade{
+        width: 100%;
+        height: 30%;
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+    .circle i{
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+
+     #price{
+        margin-top: 120%;
+        margin-left: 25%;
+        position: absolute;
+        width: 50%;
+        height: 30%;
+     }
+     #price h5{
+      margin-top: 8%;
+      margin-left: 20%;
+     }
+     #price h2{
+      margin-top: 18%;
+      margin-left: 35%;
+     }#price h4{
+      margin-top: 28%;
+      margin-left: 40%;
+     }
+     #form{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5%;
+        height: 80%;
+     }
+    .inp{
+        width: 90%;
+        height: 30%;
+        flex-direction: column;
+        margin-left: 4%;
+    }
+    .inp input{
+        width: 100%;
+        height: 40%;
+    }
+    #form label{
+        margin-top: 33%;
+        margin-left: 5%;
+    }
+   #form .profile{
+    margin-top: 39%;
+    height: 11%;
+    width: 88%;
+    margin-left: 4%;
+  }
+  .profile .btn2{
+    width: 25%;
+    background: none;
+  }
+  .profile button{
+    margin-top: 5%;
+    color: gray;
+    font-size: 13px;
+    margin-left: 0%;
+  }
+  #form .msg{
+    margin-top: 53%;
+  }
+
+  #form button{
+    width: 30%;
+    height: 6%;
+  }
+}
+
+
+@media (max-width:450px){
+    #main h2{
+     margin-top: 23%;
+     font-size: 55px;
+    }
+        
+    
+    #main #div{
+        margin-top: 54%;
+        width: 30%;
+        
+    }
+    .trade5 a img{
+        width: 400px;
+        height: 300px;
+         margin-left: -42%; 
+         margin-top: -88%;
+
+    }
+    #box5{
+        height: 500%;
+        /* background-color: #7054e6; */
+    }
+   
+    #box5 .trade4{
+        margin-top: 580%;
+        width: 100%;
+        height: 49%;
+        /* background-color: #04b388; */
+    }
+    #enrollment{
+        width: 100%;
+        height: 5%;
+        margin-top: -160%;
+        margin-left: 0%;
+    }
+    #enrollment h4{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    #enrollment .enroll{
+        font-size: 18px;
+    }
+    #pro-trade{
+        margin-top: 2%;
+    }
+    #pro-trade p{
+        font-size: 17px;
+    }
+    #pro-trade h2{
+        margin-left: 6%;
+    }
+   
+    #price{
+       margin-top: 220%;
+       width: 70%;
+       margin-left: 15%;
+    }
+    #price h2{
+        margin-left: 20%;
+    }
+       #price h4{
+        margin-left: 25%;
+       }
+    #box6{
+        margin-top: -235%;
+        height: 90%;
+
+    }
+    .circle i{
+        margin-left: 2.5%;
+    }
+    .inp{
+        height: 20%;
+        margin-left: 4%;
+        margin-top: 9%;
+        
+    }
+    #box6 h2{
+        margin-left: 4%;
+        margin-top: 15%;
+    }
+    #box6 p{
+        margin-left: 5%;
+    }
+    #box6 h3{
+        margin-left: 5%;
+    }
+     #form label{
+        margin-top: 50%;
+     }
+      #form .profile{
+        margin-top: 57%;
+      }
+
+      
+       #form .msg{
+        margin-top: 80%;
+       }
+       #form .submit{
+        margin-top: 8%;
+        width: 45%;
+        height: 8%;
+       }
+
+
+
+       .footer{
+        margin-top: 50%;
+       }
+
+   
+  
+
+}
+
+
+
+

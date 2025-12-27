@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.register{
+    width: 100%;
+    height: 120%;
+    background-color: brown;
+    background-image: url(login\ bg.jpg);
+    background-size: cover;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#form2{
+    background-color: white;
+    width: 32%;
+    height: 81%;
+    border-radius: 6px;
+    padding: 50px 40px;
+}
+#form2 h3{
+    font-size: 36px;
+    margin-left: 30%;
+    margin-top: -7%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#form2 form{
+    height: 90%;
+    width: 100%;
+    margin-top: 18px;
+}
+form label{
+    font-size: 18px;
+    color: #7d8185;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#form2 form input{
+    width: 100%;
+     height: 60px;
+ margin-top: 2%;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color:#57575713;
+  font-size: 16px;
+  color: #575757;
+  padding-left: 20px;
+
+}
+.login-div{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+    font-weight: 500;
+    color: #7d8185;
+    text-align: center;
+}
+.login-div a{
+    text-decoration: none;
+    color: #0b5ed7;
+    font-weight: 700;
+
+}
+.login-div a:hover{
+    text-decoration:underline;
+}
+
+
+form .btn {
+  background-color:#0b5ed7;
+  color: white;
+  border: none;
+     width: 100%;
+     height: 40px;
+ 
+  border-radius: 8px;
+  cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+@media (max-width:768px) {
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.register{
+    width: 100%;
+    height: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form2{
+    width: 60%;
+    height: 90%;
+   
+    
+}
+
+    
+}
+
+@media (max-width:450px){
+    html,body{
+        width: 100%;
+        height: 100%;
+    }
+    .register{
+        width: 100%;
+        height: 120%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+     .register #form2{
+        width: 80%;
+        height: 90%;
+       
+       
+    }
+ 
+   .login-div{
+    font-size: 18px;
+   }
+}
